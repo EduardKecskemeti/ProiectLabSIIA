@@ -32,7 +32,6 @@ if pagina == "Set de Date":
     Setul de date include variabile demografice, măsurători clinice și rezultate ECG.
     """)
 
-    st.success("Asigură-te că fișierul **heart.csv** este în același folder cu aplicația Streamlit (`app.py`).")
 
     try:
         df = pd.read_csv("heart.csv")
