@@ -14,9 +14,6 @@ pagina = st.sidebar.radio(
      "Clustering (K-Means)"]
 )
 
-# ============================
-#      PAGINA SET DE DATE
-# ============================
 if pagina == "Set de Date":
     st.title("Set de Date – Heart Disease Prediction ")
 
@@ -38,11 +35,11 @@ if pagina == "Set de Date":
         st.subheader("Tabelul complet al setului de date")
         st.dataframe(df)
 
-        # ---- Statistici ----
+        # Statistici
         st.subheader("Statistici descriptive")
         st.write(df.describe(include='all'))
 
-        # ---- Descriere coloane ----
+        # Descriere coloane
         st.subheader("Descrierea coloanelor")
 
         descrieri = {
@@ -76,9 +73,6 @@ if pagina == "Set de Date":
     except FileNotFoundError:
         st.error("⚠ Fișierul `heart.csv` nu a fost găsit în folderul proiectului.")
 
-# ============================
-# PAGINI GOLITE (de completat)
-# ============================
 elif pagina == "Logistic Regression":
     st.title("Model: Logistic Regression")
     st.write("Aici va fi implementat modelul Logistic Regression.")
