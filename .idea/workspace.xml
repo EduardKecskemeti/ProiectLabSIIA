@@ -4,7 +4,7 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="b9d2ac30-4d15-4304-9263-1e5d765ec8d6" name="Changes" comment="meniu">
+    <list default="true" id="b9d2ac30-4d15-4304-9263-1e5d765ec8d6" name="Changes" comment="aplicare modele + comparare">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/main.py" beforeDir="false" afterPath="$PROJECT_DIR$/main.py" afterDir="false" />
     </list>
@@ -81,7 +81,7 @@
       <option name="presentableId" value="Default" />
       <updated>1764051253081</updated>
       <workItem from="1764051254120" duration="2495000" />
-      <workItem from="1764655094361" duration="770000" />
+      <workItem from="1764655094361" duration="2400000" />
     </task>
     <task id="LOCAL-00001" summary="meniu">
       <option name="closed" value="true" />
@@ -123,7 +123,15 @@
       <option name="project" value="LOCAL" />
       <updated>1764053602311</updated>
     </task>
-    <option name="localTasksCounter" value="6" />
+    <task id="LOCAL-00006" summary="aplicare modele + comparare">
+      <option name="closed" value="true" />
+      <created>1764656773686</created>
+      <option name="number" value="00006" />
+      <option name="presentableId" value="LOCAL-00006" />
+      <option name="project" value="LOCAL" />
+      <updated>1764656773686</updated>
+    </task>
+    <option name="localTasksCounter" value="7" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -131,7 +139,8 @@
   </component>
   <component name="VcsManagerConfiguration">
     <MESSAGE value="meniu" />
-    <option name="LAST_COMMIT_MESSAGE" value="meniu" />
+    <MESSAGE value="aplicare modele + comparare" />
+    <option name="LAST_COMMIT_MESSAGE" value="aplicare modele + comparare" />
   </component>
   <component name="com.intellij.coverage.CoverageDataManagerImpl">
     <SUITE FILE_PATH="coverage/ProiectSIIA$main.coverage" NAME="main Coverage Results" MODIFIED="1764053185377" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />

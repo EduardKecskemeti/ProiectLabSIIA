@@ -592,39 +592,27 @@ elif pagina == "Comparare Modele":
                 "Train Time (s)": train_time
             }
 
-        # ----------------------------
-        # MODELE
-        # ----------------------------
         st.subheader("Evaluarea modelelor…")
 
         results = {}
 
-        # Logistic Regression
         results["Logistic Regression"] = eval_model(
             LogisticRegression(max_iter=1000)
         )
 
-        # Random Forest
         results["Random Forest"] = eval_model(
             RandomForestClassifier(n_estimators=200, random_state=42)
         )
 
-        # SVM
         results["SVM (RBF)"] = eval_model(
             SVC(kernel="rbf", probability=True, random_state=42)
         )
 
-        # ----------------------------
-        # TABEL COMPARATIV
-        # ----------------------------
         st.subheader("Tabel comparativ al performanțelor")
 
         results_df = pd.DataFrame(results).T
         st.dataframe(results_df)
 
-        # ----------------------------
-        # GRAFICE COMPARATIVE
-        # ----------------------------
         st.subheader("Comparație vizuală a metricilor")
 
         fig, ax = plt.subplots(figsize=(10, 6))
@@ -634,9 +622,6 @@ elif pagina == "Comparare Modele":
         ax.set_ylim(0, 1)
         st.pyplot(fig)
 
-        # ----------------------------
-        # BEST MODEL
-        # ----------------------------
         st.subheader("Cel mai bun model (după F1-Score)")
 
         best_model = results_df["F1-Score"].idxmax()
