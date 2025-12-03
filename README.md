@@ -10,7 +10,7 @@ Acest proiect reprezintă o interfață interactivă de Machine Learning realiza
 Proiectul include vizualizări, metrici de performanță, preprocesare automată și comparația finală între modele.
 
 
-## 📊 Set de date folosit
+## Set de date folosit
 
 Dataset: **Heart Disease Prediction**  
 Sursă: Kaggle  
@@ -36,7 +36,7 @@ Setul de date este încărcat automat în aplicație și afișat în pagina „S
 
 ---
 
-## 🚀 Funcționalități principale
+##  Funcționalități principale
 
 ###  1. Pagina Set de Date
 - afișare dataset complet  
